@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7e9ec" />
+  <meta name="description" content="دعوة زفاف صلاح وياسمين — 26 أغسطس 2026 — قاعة الماسة، منيا القمح" />
+  <title>صلاح & ياسمين | ليلة العمر</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader-ring"></div><div class="loader-mark">S <span>&</span> Y</div></div>
+
+  <div class="intro" id="intro">
+    <div class="intro-orbit orbit-1"></div><div class="intro-orbit orbit-2"></div>
+    <span class="spark spark-1">✦</span><span class="spark spark-2">✧</span><span class="spark spark-3">✦</span>
+    <div class="intro-card">
+      <div class="monogram">S<span>&</span>Y</div>
+      <div class="eyebrow">دعوة زفاف</div>
+      <h1>صلاح <small>&</small> ياسمين</h1>
+      <div class="gold-line"></div>
+      <p class="verse">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</p>
+      <button class="primary-btn" id="openInvitation"><span>افتح الدعوة</span><b>♥</b></button>
+      <p class="hint">اضغط للبدء وتشغيل الموسيقى</p>
+    </div>
+  </div>
+
+  <button class="music-btn" id="musicBtn" aria-label="تشغيل أو إيقاف الموسيقى"><span class="bars"><i></i><i></i><i></i><i></i></span></button>
+  <audio id="weddingAudio" loop preload="metadata"><source src="assets/wedding-song.mp3" type="audio/mpeg"></audio>
+
+  <div class="progress"><span id="progressBar"></span></div>
+  <button class="pause-scroll" id="pauseScroll" aria-label="إيقاف أو تشغيل الاسكرول التلقائي"><span>Ⅱ</span></button>
+
+  <main id="mainContent" class="hidden">
+    <section class="hero section-screen">
+      <div class="hero-bg-orb"></div><div class="hero-spark s1">✦</div><div class="hero-spark s2">✧</div>
+      <div class="hero-content">
+        <div class="hero-copy reveal">
+          <p class="tiny-label">بِسْمِ اللهِ نَبْدَأُ أجملَ حكاية</p>
+          <div class="monogram large">S<span>&</span>Y</div>
+          <p class="pre-title">يسرّنا أن نشارككم</p>
+          <h2>ليلة العمر</h2>
+          <div class="names">صلاح <em>&</em> ياسمين</div>
+          <p class="hero-sub">وبكل الحب ندعوكم لمشاركتنا فرحتنا في ليلة استثنائية، تبدأ بحضوركم وتكتمل بوجودكم.</p>
+          <div class="hero-date"><span>الأربعاء</span><strong>26</strong><span>أغسطس 2026</span></div>
+        </div>
+        <div class="hero-art reveal delay-1"><div class="art-frame"><img src="assets/gallery-01.jpg" alt="العروسان" fetchpriority="high"><span class="shine"></span></div><div class="seal">♥<span>معًا<br>إلى الأبد</span></div></div>
+      </div>
+      <div class="scroll-cue"><span>اكتشف التفاصيل</span><b>↓</b></div>
+    </section>
+
+    <section class="verse-section section reveal-section">
+      <div class="ornament">❦</div><p class="section-kicker">آية من كتاب الله</p>
+      <h3>﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</h3>
+      <div class="gold-line"></div><p class="surah">صدق الله العظيم — الروم: ٢١</p>
+    </section>
+
+    <section class="details section reveal-section">
+      <div class="section-heading"><p class="section-kicker">تفاصيل الليلة</p><h3>موعدنا مع أجمل لحظات العمر</h3></div>
+      <div class="details-grid">
+        <article class="detail-card"><div class="detail-icon">◷</div><span>الموعد</span><strong>الأربعاء</strong><b>26 أغسطس 2026</b><small>الساعة 8:00 مساءً</small></article>
+        <article class="detail-card"><div class="detail-icon">✦</div><span>المكان</span><strong>قاعة الماسة</strong><b>منيا القمح</b><small>ننتظركم بكل حب</small></article>
+        <article class="detail-card"><div class="detail-icon">♥</div><span>الليلة</span><strong>صلاح & ياسمين</strong><b>بداية حكايتنا</b><small>وجودكم هو أجمل هدية</small></article>
+      </div>
+    </section>
+
+    <section class="countdown-section section reveal-section">
+      <div class="countdown-card"><div><p class="section-kicker">العد التنازلي</p><h3>باقي على فرحتنا</h3><p>كل لحظة تقرّبنا من ليلة لا تُنسى.</p></div>
+        <div class="countdown" id="countdown"><div><strong id="days">00</strong><span>يوم</span></div><i>:</i><div><strong id="hours">00</strong><span>ساعة</span></div><i>:</i><div><strong id="minutes">00</strong><span>دقيقة</span></div><i>:</i><div><strong id="seconds">00</strong><span>ثانية</span></div></div>
+      </div>
+    </section>
+
+    <section class="gallery section reveal-section">
+      <div class="section-heading"><p class="section-kicker">لحظات من الحب</p><h3>نحتفل بالحكاية</h3></div>
+      <div class="gallery-grid">
+        <button class="photo-card photo-a" data-img="assets/gallery-02.jpg"><img src="assets/gallery-02.jpg" alt="لحظة من الحكاية" loading="lazy"><span>♥</span></button>
+        <button class="photo-card photo-b" data-img="assets/gallery-03.jpg"><img src="assets/gallery-03.jpg" alt="لحظة من الحكاية" loading="lazy"><span>♥</span></button>
+        <button class="photo-card photo-c" data-img="assets/gallery-04.jpg"><img src="assets/gallery-04.jpg" alt="لحظة من الحكاية" loading="lazy"><span>♥</span></button>
+      </div>
+    </section>
+
+    <section class="location section reveal-section">
+      <div class="location-card"><div class="location-image"><img src="assets/gallery-04.jpg" alt="قاعة الماسة" loading="lazy"><span class="map-pin">⌖</span></div>
+        <div class="location-copy"><p class="section-kicker">مكان الاحتفال</p><h3>قاعة الماسة</h3><p>منيا القمح</p><div class="mini-divider"></div><span>الأربعاء · 26 أغسطس · 8 مساءً</span><a class="map-btn" href="https://maps.app.goo.gl/2JucCVY1aaaiitXv9" target="_blank" rel="noopener">📍 افتح الموقع على الخريطة</a></div>
+      </div>
+    </section>
+
+    <section class="rsvp section reveal-section"><div class="rsvp-card"><div class="rsvp-flower">✿</div><p class="section-kicker">وجودكم يسعدنا</p><h3>هل سنراكُم معنا؟</h3><p>اختر ردّك بكل بساطة.</p><button class="primary-btn" id="rsvpOpen"><span>تأكيد الحضور</span><b>♥</b></button><div class="rsvp-note">دعوتكم غالية علينا، وحضوركم أجمل ما في ليلتنا.</div></div></section>
+
+    <section class="closing section reveal-section"><div class="closing-art"><img src="assets/gallery-01.jpg" alt="صلاح وياسمين" loading="lazy"></div><div class="closing-copy"><div class="monogram">S<span>&</span>Y</div><h3>ومن هنا تبدأ حكايتنا...</h3><p>اللهم بارك لنا وبارك علينا واجمع بيننا في خير.</p><div class="names small-names">صلاح & ياسمين</div><div class="gold-line"></div><span>26 · 08 · 2026</span></div></section>
+    <footer><div class="footer-mark">S <span>&</span> Y</div><p>صُممت بحب لليلة لا تُنسى ♥</p></footer>
+  </main>
+
+  <div class="lightbox" id="lightbox"><button id="lightboxClose" aria-label="إغلاق">×</button><img id="lightboxImage" src="" alt="صورة من الدعوة"></div>
+  <div class="rsvp-modal" id="rsvpModal"><div class="modal-backdrop" id="modalBackdrop"></div><div class="modal-box"><button class="modal-close" id="modalClose">×</button><div class="modal-heart">♥</div><p class="section-kicker">تأكيد الحضور</p><h3>سنفرح برسالتك</h3><p>اختر ردّك:</p><div class="rsvp-options"><button data-response="سأحضر بكل حب ❤️"><span>❤️</span><b>سأحضر بكل حب</b></button><button data-response="بإذن الله سأكون معكم 🤍"><span>🤍</span><b>بإذن الله سأكون معكم</b></button><button data-response="أعتذر، أتمنى لكم فرحة لا تنتهي 🌷"><span>🌷</span><b>أعتذر، أتمنى لكم فرحة لا تنتهي</b></button></div><div class="confirm-message" id="confirmMessage"></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
