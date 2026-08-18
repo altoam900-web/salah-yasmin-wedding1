@@ -13,7 +13,7 @@ let autoScrollStarted = false;
 let autoScrollPaused = false;
 let raf = null;
 let resumeTimer = null;
-const SPEED = 100;
+const SPEED = 120;
 
 window.addEventListener("load", () => {
   setTimeout(() => loader?.classList.add("done"), 450);
